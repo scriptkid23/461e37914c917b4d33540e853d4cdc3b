@@ -10,7 +10,7 @@ var testAuthRouter = require('./routes/api_login/test.auth');
 var auth          = require('./routes/auth');
 const passport    = require('passport');
 
-require('./middleware/auth.passport');
+require('./middleware/passport.config');
 var app = express();
 
 // view engine setup
